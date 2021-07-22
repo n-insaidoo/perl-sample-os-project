@@ -10,7 +10,7 @@ jobs:
           - name: Checkout
             uses: actions/checkout@v2
           - name: Scan project with the Meterian client
-            uses: MeterianHQ/meterian-github-action@oss-arg
+            uses: MeterianHQ/meterian-github-action@v1.0.7-canary
             with:
                 cli_args: "--scan-perl --debug"
                 oss: true
